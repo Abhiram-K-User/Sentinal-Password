@@ -146,7 +146,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="w-full max-w-6xl mt-16 mb-8 text-center text-xs text-muted-foreground">
         <p>
-          Sentinel by Lovable • All processing happens locally • Your password never leaves your device
+          Sentinel App • All processing happens locally • Your password never leaves your device
         </p>
       </footer>
     </div>;

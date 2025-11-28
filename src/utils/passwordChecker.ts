@@ -148,7 +148,7 @@ export function getStatusMessage(score: number, timesExposed: number): string {
     return 'Shield compromised — let\'s reinforce it.';
   }
   if (timesExposed > 0) {
-    return `⚠️ BREACH DETECTED — Exposed ${timesExposed.toLocaleString()} times.`;
+    return ` BREACH DETECTED — Exposed ${timesExposed.toLocaleString()} times.`;
   }
   return 'Weak defense detected. Immediate upgrade recommended.';
 }
