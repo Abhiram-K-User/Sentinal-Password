@@ -1,4 +1,4 @@
-// Generate password suggestions that preserve original pattern
+// Password Generataion Logic
 export interface PasswordSuggestion {
   password: string;
   description: string;
